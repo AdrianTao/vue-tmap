@@ -60,27 +60,3 @@ new Vue({
 </template>
 ```
 
-## 其他
-推荐一款npm源管理器，可以快速切换npm源。   
-[nrm](https://www.npmjs.com/package/nrm)
-查看npm源列表
-```
-$ nrm ls
-
-* npm -----  https://registry.npmjs.org/
-  yarn ----- https://registry.yarnpkg.com
-  cnpm ----  http://r.cnpmjs.org/
-  taobao --  https://registry.npm.taobao.org/
-  nj ------  https://registry.nodejitsu.com/
-  skimdb -- https://skimdb.npmjs.com/registry
-```
-添加npm源
-```
-$ nrm add sos http://192.168.2.54:4873/
-切换npm源
-
-```
-$ nrm use sos  //switch registry to sos
-
-    Registry has been set to: http://192.168.2.54:4873/
-```
